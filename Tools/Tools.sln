@@ -1,0 +1,201 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataService", "DataService", "{6960DB5C-EF4C-4305-AE0E-2E818090228D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO.Net", "ADO.Net", "{A235F7A2-6836-4E14-A6F6-4C872AB03415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSender", "EmailSender", "{0344E2B7-CF96-4D52-A97D-99E2CC0E34DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender", "EmailSender\EmailSender.csproj", "{758A2876-5BCA-46CD-88AB-3C6162D417CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEmailSender", "ConsoleEmailSender\ConsoleEmailSender.csproj", "{3297E715-B27A-437C-99DD-0A466035A6C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XmlSerializer", "XmlSerializer", "{5CDE4BF3-438A-4F62-B9B9-1A6535BAFD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleXmlSerializer", "ConsoleXmlSerializer\ConsoleXmlSerializer.csproj", "{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializer", "XmlSerializer\XmlSerializer.csproj", "{3C30840F-0E45-49A3-B2E2-74905C6CD0D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{2CB15848-C771-4F6C-8505-F3FA2C6D1AD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nlog", "Nlog", "{AFD254D4-4F51-4647-8239-62016A2FCECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNlog", "ConsoleNlog\ConsoleNlog.csproj", "{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{BAF52E54-38DC-4EDD-8ADA-27AC65AD1A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{2D3C21C3-0C42-4C65-B41A-4CC65C159931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderDataService", "ProviderDataService\ProviderDataService.csproj", "{9D4337AB-8D50-4221-99D3-50025E5339E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProviderDataService", "ConsoleProviderDataService\ConsoleProviderDataService.csproj", "{068CF9D8-44C6-4E01-92B0-16BDB0D6E711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDataService", "FactoryDataService\FactoryDataService.csproj", "{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFactoryDataService", "ConsoleFactoryDataService\ConsoleFactoryDataService.csproj", "{DBB30709-81B0-4E44-99B7-80573EC72033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{86FF6990-8EBE-4FC6-B73D-F9A750EA5360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataService", "SqlDataService\SqlDataService.csproj", "{9D408184-89C6-422A-A791-B7FDB10BFCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSqlDataService", "ConsoleSqlDataService\ConsoleSqlDataService.csproj", "{C7AE31D7-B520-47CE-AB99-7C32CA86C72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{91EA33BB-9416-4D48-9E3B-FA1C5073E5FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm", "WinForm", "{5C65A260-133F-4A5D-8D0B-C2C66CF2A475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormAsync", "WinFormAsync\WinFormAsync.csproj", "{7F507E1E-68AA-4A41-9592-ADE858D716F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{F5A5DB14-4FB0-4DCF-8E0C-7C905594F0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAsync", "WpfAsync\WpfAsync.csproj", "{45CF76AE-B032-40EC-8E97-5A9609EBB7C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{758A2876-5BCA-46CD-88AB-3C6162D417CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758A2876-5BCA-46CD-88AB-3C6162D417CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758A2876-5BCA-46CD-88AB-3C6162D417CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758A2876-5BCA-46CD-88AB-3C6162D417CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3297E715-B27A-437C-99DD-0A466035A6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3297E715-B27A-437C-99DD-0A466035A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3297E715-B27A-437C-99DD-0A466035A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3297E715-B27A-437C-99DD-0A466035A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C30840F-0E45-49A3-B2E2-74905C6CD0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C30840F-0E45-49A3-B2E2-74905C6CD0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C30840F-0E45-49A3-B2E2-74905C6CD0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C30840F-0E45-49A3-B2E2-74905C6CD0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4337AB-8D50-4221-99D3-50025E5339E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4337AB-8D50-4221-99D3-50025E5339E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4337AB-8D50-4221-99D3-50025E5339E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4337AB-8D50-4221-99D3-50025E5339E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068CF9D8-44C6-4E01-92B0-16BDB0D6E711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068CF9D8-44C6-4E01-92B0-16BDB0D6E711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068CF9D8-44C6-4E01-92B0-16BDB0D6E711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068CF9D8-44C6-4E01-92B0-16BDB0D6E711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB30709-81B0-4E44-99B7-80573EC72033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB30709-81B0-4E44-99B7-80573EC72033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB30709-81B0-4E44-99B7-80573EC72033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB30709-81B0-4E44-99B7-80573EC72033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D408184-89C6-422A-A791-B7FDB10BFCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D408184-89C6-422A-A791-B7FDB10BFCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D408184-89C6-422A-A791-B7FDB10BFCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D408184-89C6-422A-A791-B7FDB10BFCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AE31D7-B520-47CE-AB99-7C32CA86C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AE31D7-B520-47CE-AB99-7C32CA86C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AE31D7-B520-47CE-AB99-7C32CA86C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AE31D7-B520-47CE-AB99-7C32CA86C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F507E1E-68AA-4A41-9592-ADE858D716F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F507E1E-68AA-4A41-9592-ADE858D716F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F507E1E-68AA-4A41-9592-ADE858D716F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F507E1E-68AA-4A41-9592-ADE858D716F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CF76AE-B032-40EC-8E97-5A9609EBB7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CF76AE-B032-40EC-8E97-5A9609EBB7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CF76AE-B032-40EC-8E97-5A9609EBB7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CF76AE-B032-40EC-8E97-5A9609EBB7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A235F7A2-6836-4E14-A6F6-4C872AB03415} = {6960DB5C-EF4C-4305-AE0E-2E818090228D}
+		{758A2876-5BCA-46CD-88AB-3C6162D417CF} = {0344E2B7-CF96-4D52-A97D-99E2CC0E34DF}
+		{3297E715-B27A-437C-99DD-0A466035A6C7} = {0344E2B7-CF96-4D52-A97D-99E2CC0E34DF}
+		{9F0F9E1C-6B07-43CC-9217-2CA8A7D68F86} = {5CDE4BF3-438A-4F62-B9B9-1A6535BAFD8F}
+		{3C30840F-0E45-49A3-B2E2-74905C6CD0D3} = {5CDE4BF3-438A-4F62-B9B9-1A6535BAFD8F}
+		{AFD254D4-4F51-4647-8239-62016A2FCECF} = {2CB15848-C771-4F6C-8505-F3FA2C6D1AD8}
+		{9E4E03F0-8A4F-49AD-8033-BF3AF4C8208F} = {AFD254D4-4F51-4647-8239-62016A2FCECF}
+		{BAF52E54-38DC-4EDD-8ADA-27AC65AD1A7B} = {A235F7A2-6836-4E14-A6F6-4C872AB03415}
+		{2D3C21C3-0C42-4C65-B41A-4CC65C159931} = {A235F7A2-6836-4E14-A6F6-4C872AB03415}
+		{9D4337AB-8D50-4221-99D3-50025E5339E3} = {2D3C21C3-0C42-4C65-B41A-4CC65C159931}
+		{068CF9D8-44C6-4E01-92B0-16BDB0D6E711} = {2D3C21C3-0C42-4C65-B41A-4CC65C159931}
+		{0C6A2571-5E28-4C08-BAE4-3EDD36BF3653} = {BAF52E54-38DC-4EDD-8ADA-27AC65AD1A7B}
+		{DBB30709-81B0-4E44-99B7-80573EC72033} = {BAF52E54-38DC-4EDD-8ADA-27AC65AD1A7B}
+		{86FF6990-8EBE-4FC6-B73D-F9A750EA5360} = {A235F7A2-6836-4E14-A6F6-4C872AB03415}
+		{9D408184-89C6-422A-A791-B7FDB10BFCD7} = {86FF6990-8EBE-4FC6-B73D-F9A750EA5360}
+		{C7AE31D7-B520-47CE-AB99-7C32CA86C72A} = {86FF6990-8EBE-4FC6-B73D-F9A750EA5360}
+		{5C65A260-133F-4A5D-8D0B-C2C66CF2A475} = {91EA33BB-9416-4D48-9E3B-FA1C5073E5FB}
+		{7F507E1E-68AA-4A41-9592-ADE858D716F1} = {5C65A260-133F-4A5D-8D0B-C2C66CF2A475}
+		{F5A5DB14-4FB0-4DCF-8E0C-7C905594F0C2} = {91EA33BB-9416-4D48-9E3B-FA1C5073E5FB}
+		{45CF76AE-B032-40EC-8E97-5A9609EBB7C9} = {F5A5DB14-4FB0-4DCF-8E0C-7C905594F0C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02431976-5073-40B7-8FF3-10CA0229AD67}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ysp-libraries.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EmailSender\\EmailSender.csproj
+		SccProjectTopLevelParentUniqueName1 = Tools.sln
+		SccProjectName1 = EmailSender
+		SccLocalPath1 = EmailSender
+		SccProjectUniqueName2 = ConsoleEmailSender\\ConsoleEmailSender.csproj
+		SccProjectTopLevelParentUniqueName2 = Tools.sln
+		SccProjectName2 = ConsoleEmailSender
+		SccLocalPath2 = ConsoleEmailSender
+		SccProjectUniqueName3 = ConsoleXmlSerializer\\ConsoleXmlSerializer.csproj
+		SccProjectTopLevelParentUniqueName3 = Tools.sln
+		SccProjectName3 = ConsoleXmlSerializer
+		SccLocalPath3 = ConsoleXmlSerializer
+		SccProjectUniqueName4 = XmlSerializer\\XmlSerializer.csproj
+		SccProjectTopLevelParentUniqueName4 = Tools.sln
+		SccProjectName4 = XmlSerializer
+		SccLocalPath4 = XmlSerializer
+		SccProjectUniqueName5 = ConsoleNlog\\ConsoleNlog.csproj
+		SccProjectTopLevelParentUniqueName5 = Tools.sln
+		SccProjectName5 = ConsoleNlog
+		SccLocalPath5 = ConsoleNlog
+		SccProjectUniqueName6 = ProviderDataService\\ProviderDataService.csproj
+		SccProjectTopLevelParentUniqueName6 = Tools.sln
+		SccProjectName6 = ProviderDataService
+		SccLocalPath6 = ProviderDataService
+		SccProjectUniqueName7 = ConsoleProviderDataService\\ConsoleProviderDataService.csproj
+		SccProjectTopLevelParentUniqueName7 = Tools.sln
+		SccProjectName7 = ConsoleProviderDataService
+		SccLocalPath7 = ConsoleProviderDataService
+		SccProjectUniqueName8 = FactoryDataService\\FactoryDataService.csproj
+		SccProjectTopLevelParentUniqueName8 = Tools.sln
+		SccProjectName8 = FactoryDataService
+		SccLocalPath8 = FactoryDataService
+		SccProjectUniqueName9 = ConsoleFactoryDataService\\ConsoleFactoryDataService.csproj
+		SccProjectTopLevelParentUniqueName9 = Tools.sln
+		SccProjectName9 = ConsoleFactoryDataService
+		SccLocalPath9 = ConsoleFactoryDataService
+		SccProjectUniqueName10 = SqlDataService\\SqlDataService.csproj
+		SccProjectTopLevelParentUniqueName10 = Tools.sln
+		SccProjectName10 = SqlDataService
+		SccLocalPath10 = SqlDataService
+		SccProjectUniqueName11 = ConsoleSqlDataService\\ConsoleSqlDataService.csproj
+		SccProjectTopLevelParentUniqueName11 = Tools.sln
+		SccProjectName11 = ConsoleSqlDataService
+		SccLocalPath11 = ConsoleSqlDataService
+		SccProjectUniqueName12 = WinFormAsync\\WinFormAsync.csproj
+		SccProjectTopLevelParentUniqueName12 = Tools.sln
+		SccProjectName12 = WinFormAsync
+		SccLocalPath12 = WinFormAsync
+		SccProjectUniqueName13 = WpfAsync\\WpfAsync.csproj
+		SccProjectTopLevelParentUniqueName13 = Tools.sln
+		SccProjectName13 = WpfAsync
+		SccLocalPath13 = WpfAsync
+	EndGlobalSection
+EndGlobal
